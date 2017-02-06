@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="TimesheetApp">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.timesheet.sample.TimesheetApp' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/TimesheetApp/greet" class="org.timesheet.sample.server.GreetingServiceImpl" />
+
+</module>
