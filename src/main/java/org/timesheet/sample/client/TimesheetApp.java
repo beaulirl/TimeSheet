@@ -89,13 +89,6 @@ public class TimesheetApp implements EntryPoint {
 
         RootPanel.get().add(dayTable);
     }
-
-    private class editHandler implements ClickHandler {
-
-        public void onClick(ClickEvent event) {
-            
-        }
-    }
 }
 
 
